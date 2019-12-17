@@ -13,6 +13,7 @@ SELECT * FROM customers WHERE contact_name ILIKE '%ia%');
 SELECT * FROM customers_mod ORDER BY contact_name;
 -- ** What's a VIEW? In brief, a VIEW is a psuedo-table that is attached to the original tables 
 -- it's created from, but as far is this exercise is concerned, it's a custom table.
+-- more on VIEWs: https://www.geeksforgeeks.org/sql-views/
 
 
 -- Where going to autogenerate username for our customers using the customers_mod VIEW (see above).
